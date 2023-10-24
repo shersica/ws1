@@ -28,12 +28,12 @@ public class shoppingCart {
                 String[] itemArray = item.split(",");
 
                 for (int i = 0; i < itemArray.length; i++){
-                    String item = itemArray[i]
+                    String item = itemArray[i] //to be fixed
                     if (cart.contains(itemArray[i])){
                         System.out.println(item + " is already in cart");
                     }
                     else{
-                        cart.add(itemArray[i];
+                        cart.add(itemArray[i]; 
                     }
                 }
             }
